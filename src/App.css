@@ -1,3 +1,10 @@
+body{
+  width: 100vw;
+  height:fit-content; 
+  /* min-height: 400vh;  */
+  /* height: 500vh; */
+  overflow-x:hidden;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +42,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+margin: auto;
+
 }
